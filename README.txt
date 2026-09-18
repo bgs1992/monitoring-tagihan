@@ -1,15 +1,13 @@
-MONITORING TAGIHAN - LAUNCHER FINAL BLUE V2
+VERSI FINAL - IDENTITAS APLIKASI UNIK
+Aplikasi: Monitoring Tagihan
+Manifest ID unik: /monitoring-tagihan/
 
-PENTING:
-Versi V2 memakai nama file ikon BARU (icon-tagihan-192.png dan icon-tagihan-512.png)
-untuk menghindari ikon merah lama yang tersimpan di cache browser/PWA.
+Tujuan: mencegah Chrome menganggap launcher ini sebagai aplikasi yang sama
+dengan aplikasi lain pada domain GitHub Pages yang sama.
 
-Upload SEMUA file dan replace versi lama:
-- index.html
-- manifest.json
-- icon-tagihan-192.png
-- icon-tagihan-512.png
-
-Setelah GitHub Pages selesai deploy, buka URL Pages dan lakukan Ctrl+F5.
-Untuk instal ulang, jika aplikasi Monitoring Tagihan versi lama sudah terpasang,
-hapus/uninstall shortcut aplikasi lama terlebih dahulu lalu install dari halaman Pages.
+Setelah kedua launcher dipublikasikan:
+1. Uninstall aplikasi lama QR Perawatan Rumah dan Monitoring Tagihan dari Windows/Chrome.
+2. Refresh halaman GitHub Pages.
+3. Install QR Perawatan Rumah dari halaman Pages-nya.
+4. Install Monitoring Tagihan dari halaman Pages-nya.
+Keduanya akan menjadi aplikasi terpisah dengan ikon masing-masing.
